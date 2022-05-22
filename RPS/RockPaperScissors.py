@@ -26,7 +26,7 @@ while True:
         print ("Scissors beats paper! I win! ")
         continue
     elif opponentChoice == 'P' and userChoice.upper() == 'R':      
-        print ("Paper beat rock, I win! ")
+        print ("Paper beat rock,      I win! ")
         continue
     else:       
         print ("----You win!----")
