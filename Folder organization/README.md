@@ -7,3 +7,11 @@
 pip installdatetime, csv, pywin32
 </pre>
 </div>
+
+<p>WHAT IS DOING?</p>
+<pre>
+<p>Creating CSV file</p>
+<p>Gets all readable informations about of given directory</p>
+<p>Writing all information to CVS file column by column</p>
+<p>Note: Recommending use "Edit csv" VS Code extension for readable view</p>
+</pre>
