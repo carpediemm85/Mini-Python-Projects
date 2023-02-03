@@ -5,6 +5,7 @@ from secrets import choice
 while True:
     print("\n")
     print("------Rock Paper Scissors ------")
+    
     userChoice = input("Choose your weapon : [R]ock, [P]aper, [S]cissors !  >>> ")
     if not re.match("[SsRrPp]", userChoice):
         print ("Please choose a letter:")
@@ -16,10 +17,10 @@ while True:
     opponentChoice =random.choice(choices)
     print("I chose: " + opponentChoice)
 
-    if opponentChoice == userChoice:
+    if opponentChoice == userChoice.upper():
         print("Thie! ")
 
-    elif opponentChoice == 'R' and userChoice == 'S':
+    elif opponentChoice == 'R' and userChoice.upper() == 'S':
         print ("Scissors beats rock, I win! ")
         continue
     elif opponentChoice == 'S' and userChoice.upper() == 'P':      
