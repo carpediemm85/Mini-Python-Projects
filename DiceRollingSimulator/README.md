@@ -9,7 +9,7 @@ A simple Python script that simulates a dice roll and returns the result via the
 1. Clone the repository to your local machine
 2. Run the script using the following command:
 
-python DiceRollingSimulator.py
+<pre>python DiceRollingSimulator.py</pre>
 
 
 ## Usage

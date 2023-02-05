@@ -9,7 +9,7 @@ A simple Python script that converts kilograms to pounds or vice versa.
 1. Clone the repository to your local machine
 2. Run the script using the following command:
 
-python kgconverter.py
+<pre>python kgconverter.py</pre>
 
 
 ## Usage
