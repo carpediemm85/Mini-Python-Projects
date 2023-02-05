@@ -9,7 +9,7 @@ A simple Python script that accepts commands from the user via the command line.
 1. Clone the repository to your local machine
 2. Run the script using the following command:
 
-python script.py
+python carProject.py
 
 
 ## Commands
