@@ -1,23 +1,30 @@
 # Number Guess
 
-A simple Python script that allows the user to play a number guessing game.
+A simple number guessing game implemented in Python for the command line.
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=Python)
 
 ## Getting started
 
 1. Clone the repository to your local machine
-2. Run the script using the following command:
+2. Install the required dependencies with the following command:
 
-<pre>python number_guess.py</pre>
+<pre>pip install random</pre>
+
+3. Run the script using the following command:
+
+<pre>python guessNumber.py</pre>
 
 
 ## Usage
-The script prompts the user to input a range for the game, then randomly generates a number within that range.
-The user then inputs their guess and the script will notify them if they have won or lost the game.
+The script allows the user to guess a number within a range specified by the user.
+The script will then randomly generate a number within the specified range and compare it to the user's guess.
+If the user's guess matches the generated number, the script will output "You rock!" in the command line.
+If not, the script will output "Unfortunately you lost".
 
-If the user's guess is equal to the generated number, the script will print "You rock!" in the command line.
-If the user's guess is not equal to the generated number, the script will print "Unfortunately you lost".
+## Dependencies
+The following library is required to run the script:
+- random
 
 ## License
 This project does not have any license.
